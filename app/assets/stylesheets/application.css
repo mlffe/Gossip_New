@@ -1,0 +1,65 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+h1.welcome_name {
+    color : white;
+    text-shadow: blue 0 0 10px;
+}
+
+body {
+    text-align:center;
+    align-content: center;
+    justify-content: center;
+    background: whitesmoke;
+}
+
+.gossip_index {
+    padding: 30px;
+    border: 1px skyblue solid;
+    margin: 20px 14vw;
+    border-radius: 20px;
+    background: white;
+    box-shadow: 0 0 10px skyblue;
+}
+
+#invisible {
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+}
+
+.title {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.contact {
+    padding : 200px;
+    text-shadow: 0 0 10px violet;
+}
+
+.team {
+    text-shadow: 0 0 10px violet;
+}
+
+.gossip_title {
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 0 0 6px rgb(179, 218, 233);
+}
